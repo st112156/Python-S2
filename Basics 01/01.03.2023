@@ -29,3 +29,29 @@ elif x<0:
 else:
     print("0")
    
+# exercice 2.6
+inp= input("enter any number:\n")
+x= int(inp)
+if x>0:
+    if x<5:
+        print("small")
+    else:
+        if x>=5 and x<10:
+            print("moderate")
+        else:
+            print ("large")
+else: 
+    print("non-negative")
+
+
+#exercice try/except
+
+x= input("enter any number\n")
+try: 
+    x=int(x)
+    print(x**2/2)
+except:
+    print ("enter a number!")
+    
+#exercice 1.4
+
